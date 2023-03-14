@@ -1,33 +1,102 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
 body {
-  background-color: green;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: seagreen;
 }
-
 .card {
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  width: 200px;
-  height: 320px;
+  background-color: white;
+  margin: auto;
+  height: 300px;
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid black;
+  line-height: 250px;
+  margin-top: 10px;
 }
 
-.head {
-  font-size: 50px;
-  margin-top: ;
+.top-club {
+  font-size: 60px;
+  position: absolute;
+  top: -80px;
+  left: 20px;
 }
 
-.number {
-  text-align: center;
-  padding: 50px;
-  font-size: 50px;
+.bottom-club {
+  font-size: 60px;
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
 }
 
-.footer {
-  text-align: right;
-  margin-right: 5px;
-  font-size: 50px;
+.club {
+  font-size: 80px;
+  font-family: "Lato", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.top-heart {
+  font-size: 60px;
+  position: absolute;
+  top: -80px;
+  left: 20px;
+}
+
+.bottom-heart {
+  font-size: 60px;
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+}
+
+.heart {
+  font-size: 80px;
+  font-family: "Lato", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.top-diam {
+  font-size: 60px;
+  position: absolute;
+  top: -80px;
+  left: 20px;
+}
+
+.bottom-diam {
+  font-size: 60px;
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+}
+
+.diam {
+  font-size: 80px;
+  font-family: "Lato", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.top-spade {
+  font-size: 60px;
+  position: absolute;
+  top: -80px;
+  left: 20px;
+}
+
+.bottom-spade {
+  font-size: 60px;
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+}
+
+.spade {
+  font-size: 80px;
+  font-family: "Lato", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#bottom-suit {
+  transform: scaleY(-1);
+}
+
+.red {
+  color: red;
 }

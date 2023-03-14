@@ -10,15 +10,22 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-
   <body>
-    <div class="card">
-      <div class="suits">♥</div>
-
-      <div id="number">1</div>
-
-      <div class="">♥</div>
+    <div class="container-fluid text-center">
+      <div class="card club">
+        <span id="number" class="numberclub"></span>
+        <span id="top-suit" class="top-club"></span>
+        <span id="bottom-suit" class="bottom-club"></span>
+      </div>
     </div>
+    <script type="text/javascript" scr="bundle/bundle.js"></script>
   </body>
 </html>
